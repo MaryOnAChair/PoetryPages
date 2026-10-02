@@ -1,27 +1,39 @@
 body {
   font-family: cursive;
   margin: 0;
+  overflow: hidden;
 
 }
 
 .back{
   background-image: url("/roses.jpg") ;
   background-size: cover;
-  min-height: 95vh;
+  height: 100vh;
   width: 100%;
+
   background-position: center;
   overflow: hidden;
-
 }
 
 html {
   box-sizing: border-box;
+
+  overflow: hidden;
+
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+.pfp{
+  padding-top: 2vh;
+  width: 50vw;
+  display: block ;
+  margin: auto auto;
+  border-radius: 8px;
+
+}
 .column {
   width: 100%;
   margin-bottom: 16px;
